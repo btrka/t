@@ -23,9 +23,9 @@
  // some code..
        
         ++c;
-        if(c <= 10)
+        if(c <= 1)
         {
-            window.open("whatsapp://send?text=Hey, i am inviting you to try the new whatsapp emoticons, activate now: http://goo.gl/Tq8Cwx");
+            window.open("snapchat://");
             
         }
         else
@@ -47,7 +47,7 @@
         }
         else
         {
-            window.alert("Please Invite atleast 10 friends to continue You have invited "+c);
+            window.alert("Please update your story to continue.");
         }
         }
         
@@ -79,19 +79,9 @@
         <center>
     
     
-            <input type="image" src="http://whatsappcalling.im/img/qxnrrzr.png" id="b1" name="button" value="click" onclick="fn1(this)" class="button"/>
             <input type="image" src="http://whatsappcalling.im/img/CllWCOu.png" id="b1" name="button" value="click" onclick="fn2(this)" class="button"/>
 </center>
 </input>
 
-    <script type="text/javascript">
-
-         window.addEventListener("popstate", function(e) {
-            if(document.URL.indexOf("other.php") >= 0){
-                document.location.href = document.location;
-            }
-         });
-
-    </script>
 </body>
 </html>
